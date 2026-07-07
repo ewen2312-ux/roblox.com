@@ -17,26 +17,6 @@ body{
     color:#fff;
 }
 /* Cercles lumineux */
-body::before,
-body::after{
-    content:"";
-    position:absolute;
-    width:350px;
-    height:350px;
-    border-radius:50%;
-    filter:blur(120px);
-    z-index:-1;
-}
-body::before{
-    background:#3b82f6;
-    top:-120px;
-    left:-120px;
-}
-body::after{
-    background:#9333ea;
-    bottom:-120px;
-    right:-120px;
-}
 .card{
     width:420px;
     background:rgba(35,37,42,.82);

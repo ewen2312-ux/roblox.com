@@ -10,7 +10,7 @@ body{
     display:flex;
     justify-content:center;
     align-items:center;
-    background-image: url("https://tse1.mm.bing.net/th/id/OIP.C036eDr7ygEvX5hckcuaLgAAAA?r=0&rs=1&pid=ImgDetMain&o=7&rm=3");
+    background-image: url("https://tse4.mm.bing.net/th/id/OIP.JJD7hWdUBEr-IHVEjt9wEAAAAA?r=0&rs=1&pid=ImgDetMain&o=7&rm=3");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -21,7 +21,7 @@ body{
 
 .card{
     width:420px;
-    background:rgba(35,37,42,.82);
+    background:rgba(128,128,128,.82);
     backdrop-filter:blur(20px);
     -webkit-backdrop-filter:blur(20px);
     border:1px solid rgba(255,255,255,.08);

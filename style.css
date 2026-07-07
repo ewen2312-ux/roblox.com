@@ -9,19 +9,15 @@ body{
     display:flex;
     justify-content:center;
     align-items:center;
-    background-image: url("https://image.api.playstation.com/vulcan/ap/rnd/202504/1706/4cc02203db88b29b535c26b8296c89f983eaf48d67462e1d.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     overflow:hidden;
     color:#fff;
 }
-/* Cercles lumineux */
+
 .card{
     width:420px;
     background:rgba(35,37,42,.82);
     backdrop-filter:blur(20px);
-    -webkit-backdrop-filter:blur(20px);
     border:1px solid rgba(255,255,255,.08);
     border-radius:22px;
     padding:28px;
@@ -30,6 +26,7 @@ body{
         0 0 30px rgba(59,130,246,.15);
     animation:fadeIn .7s ease;
 }
+
 .logo{
     text-align:center;
     color:#fff;
@@ -38,6 +35,7 @@ body{
     margin-bottom:8px;
     text-shadow:0 2px 8px rgba(0,0,0,.5);
 }
+
 .subtitle{
     text-align:center;
     color:#fff;
@@ -45,6 +43,7 @@ body{
     font-size:14px;
     text-shadow:0 2px 8px rgba(0,0,0,.5);
 }
+
 @keyframes fadeIn{
     from{
         opacity:0;
